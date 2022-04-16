@@ -1,5 +1,8 @@
 package clase_2;
-
+/* Escribir un programa que para los tipos int, double, char y boolean
+declare una variable en cada caso, luego asigne un valor a cada
+una correspondiente al tipo que la variable tiene, e imprima por
+pantalla cada una de las variables. */
 public class tp_primera_parte_ejercicio_1 {
 
 	public static void main(String[] args) {

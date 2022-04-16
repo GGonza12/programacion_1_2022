@@ -1,5 +1,8 @@
 package clase_2;
-
+/* Escribir un programa que solicite y luego muestre por consola los valores
+necesarios para dibujar un círculo y un triángulo. Hay que determinar en cada
+caso que constantes (que no se cargan por consola) y variables con tipos son
+necesarias declarar. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
