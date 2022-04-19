@@ -23,7 +23,6 @@ public class practico_ejercicio_3 {
 			primercalculo = primero % 2;
 			segundocalculo=segundo % 2;
 			multiplo = (primercalculo==0)&&(segundocalculo==0);
-			
 			System.out.println("Es " + multiplo + " que ambos numeros sean multiplos de 2");
 			
 

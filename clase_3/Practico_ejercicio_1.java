@@ -16,11 +16,11 @@ public class Practico_ejercicio_1 {
 			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un numero entero");
 			numero = Integer.valueOf(entrada.readLine());
-			resultado1= numero % 2;
+			resultado1= numero / 2;
 			System.out.println("El cociente de " + numero + " por 2 es: " + resultado1);
-			resultado2= numero % 3;
+			resultado2= numero / 3;
 			System.out.println("El cociente de " + numero + " por 3 es: " + resultado2);
-			resultado3= numero % 4;
+			resultado3= numero / 4;
 			System.out.println("El cociente de " + numero + " por 4 es: " + resultado3);
 			
 		}
