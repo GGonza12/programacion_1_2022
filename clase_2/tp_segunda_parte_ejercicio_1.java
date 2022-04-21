@@ -11,9 +11,11 @@ public class tp_segunda_parte_ejercicio_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		double radio,diametro_circulo,area_triangulo,base,altura,area_circulo;
 		final double pi = 3.14;
+		final int rectangulo=90;
+		int angulo,angulo_faltante;
+		double radio,diametro_circulo,area_triangulo,base,altura,area_circulo;
+		
 		try {
 			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese el radio para el circulo");
@@ -22,12 +24,14 @@ public class tp_segunda_parte_ejercicio_1 {
 			base = Double.valueOf(entrada.readLine());
 			System.out.println("Ingrese la altura del triangulo");
 			altura = Double.valueOf(entrada.readLine());
+			System.out.println("Ingrese angulo del triangulo rectangulo");
+			angulo = Integer.valueOf(entrada.readLine());
 			diametro_circulo = radio*2;
 			area_triangulo = (base * altura) / 2;
 			area_circulo = pi * (radio*radio);
-			
+			angulo_faltante = (180 - rectangulo - angulo);
 			System.out.println("El area del circulo es: " + area_circulo);
-			System.out.println("El diametro del circulo es: " + diametro_circulo + "\n" +  "El area del triangulo es: " + area_triangulo);		
+			System.out.println("El diametro del circulo es: " + diametro_circulo + "\n" +  "El area del triangulo es: " + area_triangulo + " y el angulo faltante es: " + angulo_faltante);		
 			
 		}
 		catch (Exception exc) {
