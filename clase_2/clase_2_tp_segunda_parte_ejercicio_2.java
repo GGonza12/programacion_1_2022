@@ -4,7 +4,7 @@ apellido, edad, altura, ocupación, dirección) y los imprima por pantalla. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class tp_segunda_parte_ejercicio_2 {
+public class clase_2_tp_segunda_parte_ejercicio_2 {
 
 	public static void main(String[] args) {
 		int edad;

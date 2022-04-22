@@ -5,7 +5,7 @@ _ el primero mayor al segundo.
 _ ambos son múltiplos de 2. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-public class practico_ejercicio_3 {
+public class clase_3_practico_ejercicio_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

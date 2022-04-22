@@ -13,7 +13,7 @@ Importe Total 30.2 */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class tp_segunda_parte_ejercicio_3 {
+public class clase_2_tp_segunda_parte_ejercicio_3 {
 
 	public static void main(String[] args) {
 		double  importe1, importe2, importetotal;

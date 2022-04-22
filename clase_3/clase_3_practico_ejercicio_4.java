@@ -7,7 +7,7 @@ _ el cociente de la división de dicho número con 5 es mayor a 10. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class practico_ejercicio_4 {
+public class clase_3_practico_ejercicio_4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -5,7 +5,7 @@ número 2, luego con el número 3, y finalmente con el número 4. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Practico_ejercicio_1 {
+public class clase_3_practico_ejercicio_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

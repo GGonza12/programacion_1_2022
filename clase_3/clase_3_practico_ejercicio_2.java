@@ -4,7 +4,7 @@ verdad para el or y and por separado. Por ejemplo, imprimir el siguiente
 caso del or
 
 System.out.println(“ false or true es: ”+(false || true)); */
-public class practico_ejercicio_2 {
+public class clase_3_practico_ejercicio_2 {
 
 	public static void main(String[] args) {
 

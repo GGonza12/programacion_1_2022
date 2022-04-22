@@ -6,7 +6,7 @@ necesarias declarar. */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class tp_segunda_parte_ejercicio_1 {
+public class clase_2_tp_segunda_parte_ejercicio_1 {
 	
 
 	public static void main(String[] args) {

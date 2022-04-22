@@ -3,7 +3,7 @@ package clase_2;
 declare una variable en cada caso, luego asigne un valor a cada
 una correspondiente al tipo que la variable tiene, e imprima por
 pantalla cada una de las variables. */
-public class tp_primera_parte_ejercicio_1 {
+public class clase_2_tp_primera_parte_ejercicio_1 {
 
 	public static void main(String[] args) {
 
