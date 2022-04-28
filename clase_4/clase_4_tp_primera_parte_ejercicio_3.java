@@ -25,13 +25,9 @@ public class clase_4_tp_primera_parte_ejercicio_3 {
 				else if ((num1 > 30)&&(( num1 % 2)== 0)){
 					System.out.println("Es numero es mayor a 30 y es multiplo de 2.");
 				}
-				else if((num1 / 5)>10){
+				if((num1 / 5)>10){
 					System.out.println("El cociente es mayor a 10");
-				}
-				else {
-					System.out.println("No cumple con nada.");
-				}
-				
+				}				
 				
 			}
 			catch(Exception exc) {
