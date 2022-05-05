@@ -17,14 +17,14 @@ public class clase_5_practico_ejercicio_7 {
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 				System.out.println("Ingrese un caracter");
 				caracter = entrada.readLine().charAt(0);
-					while (caracter !='*')	 {
+					while ((caracter >=MIN)&&(caracter<=MAX))	 {
 						if(caracter<menor) {
 							menor = caracter;
 						}
 						else if (caracter>mayor) {
 							mayor = caracter;
 						}
-						System.out.println("Ingrese otro caracter o ingrese *¨para salir.");
+						System.out.println("Ingrese otro caracter");
 						caracter = entrada.readLine().charAt(0);
 						
 					}
