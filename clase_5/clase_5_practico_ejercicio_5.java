@@ -14,11 +14,9 @@ public class clase_5_practico_ejercicio_5 {
 			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un numero entero");
 			numero = Integer.valueOf(entrada.readLine());
-			while (numero != 0) {
-				if((numero>=1)&&(numero<=10)) {
-					suma+=numero;
-				}
-				System.out.println("Ingrese un numero entero o ingrese 0 para salir.");
+			while ((numero>=1)&&(numero<=10)) {
+				suma+=numero;
+				System.out.println("Ingrese un numero entero.");
 				numero = Integer.valueOf(entrada.readLine());
 			}
 			System.out.println("La suma de todos los numeros ingresados es: " + suma);
