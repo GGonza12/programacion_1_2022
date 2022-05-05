@@ -18,13 +18,13 @@ public class clase_5_practico_ejercicio_1 {
 			numero = Integer.valueOf(entrada.readLine());
 			while ((numero>MIN)&&(numero<MAX)) {
 				if ((numero%2==0)&&(numero%3==0)) {
-					System.out.println("El numero es multiplo de 2 y3");
-					System.out.println("Ingrese un numero");
-					numero = Integer.valueOf(entrada.readLine());
+					System.out.println("El numero es multiplo de 2 y 3");
 				}
 				else {
-					numero = 11;
+					System.out.println("No es multiplo de 2 y 3");
 				}
+				System.out.println("Ingrese un numero");
+				numero = Integer.valueOf(entrada.readLine());
 			}
 			
 		}
