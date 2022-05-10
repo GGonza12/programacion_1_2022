@@ -21,7 +21,7 @@ public class clase_5_practico_ejercicio_7 {
 						if(caracter<menor) {
 							menor = caracter;
 						}
-						else if (caracter>mayor) {
+						if (caracter>mayor) {
 							mayor = caracter;
 						}
 						System.out.println("Ingrese otro caracter");
