@@ -8,8 +8,8 @@ public class clase_6_tp_primera_parte_ejercicio_1 {
 
 	public static void main(String[] args) {
 		int numero;
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un numero");
 			numero = Integer.valueOf(entrada.readLine());
 			while (numero != 0) {

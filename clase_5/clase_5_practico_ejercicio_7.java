@@ -13,8 +13,8 @@ public class clase_5_practico_ejercicio_7 {
 		menor = MAX;
 		mayor = MIN;
 		
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			try {
-				BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 				System.out.println("Ingrese un caracter");
 				caracter = entrada.readLine().charAt(0);
 					while ((caracter >=MIN)&&(caracter<=MAX))	 {

@@ -9,8 +9,8 @@ public class clase_6_tp_segunda_parte_ejercicio_3 {
 	public static final int MULT = 9;
 	public static void main(String[] args) {
 		char caracter;
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un caracter");
 			caracter = entrada.readLine().charAt(0);
 			while ((caracter>='a')&&(caracter<='z')) {

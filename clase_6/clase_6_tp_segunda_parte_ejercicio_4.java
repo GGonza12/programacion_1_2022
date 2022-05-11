@@ -10,8 +10,8 @@ public class clase_6_tp_segunda_parte_ejercicio_4 {
 
 	public static void main(String[] args) {
 		int num,resultado;
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un numero.");
 			num = Integer.valueOf(entrada.readLine());
 			while (num!=0) {

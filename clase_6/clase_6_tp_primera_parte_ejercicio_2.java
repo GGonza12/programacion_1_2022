@@ -9,8 +9,8 @@ public class clase_6_tp_primera_parte_ejercicio_2 {
 
 	public static void main(String[] args) {
 		char caracter;
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Ingrese un caracter.");
 			caracter = entrada.readLine().charAt(0);
 			while (((caracter>='0') && (caracter<='9')) || ((caracter>='a')&&(caracter<='z')) ) {
