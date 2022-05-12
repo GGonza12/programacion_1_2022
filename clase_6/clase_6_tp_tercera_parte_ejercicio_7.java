@@ -13,12 +13,28 @@ public class clase_6_tp_tercera_parte_ejercicio_7 {
 		try {
 			System.out.println("Ingrese un numero de mes.");
 			numero = Integer.valueOf(entrada.readLine());
+			while ((numero>=1)&&(numero<=12)) {
+				cantidad_dias(numero);
+				System.out.println("Ingrese un numero de mes.");
+				numero = Integer.valueOf(entrada.readLine());
+			}
 			
 		}
 		catch(Exception exc) {
 			System.out.println(exc);
 		}
 
+	}
+	public static void cantidad_dias(int mes) {
+		if ((mes==1)||(mes==3)||(mes==5)||(mes==7)||(mes==8)||(mes==10)||(mes==12)) {
+			System.out.println("Tiene 31 dias.");
+		}
+		else if ((mes==4)||(mes==6)||(mes==9)||(mes==11)) {
+			System.out.println("Tiene 30 dias.");
+		}
+		else if (mes==2) {
+			System.out.println("Tiene 28 dias.");
+		}
 	}
 
 }
