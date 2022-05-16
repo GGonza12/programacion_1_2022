@@ -29,7 +29,7 @@ public class clase_6_tp_cuarta_parte_ejercicio_12 {
 		aureo = (anio+1)%19;
 		epacta = (((aureo-1)*11) % 30);
 		meses = (((mes-3)+1)%12);
-		pasaron = ((dia+epacta+meses)%28);
+		pasaron = ((dia+epacta+meses));
 		fase = (pasaron/7);
 		System.out.println("aureo: "+aureo);
 		System.out.println("epacta: "+epacta);
