@@ -32,12 +32,11 @@ public class clase_7_tp_segunda_parte_ejercicio_8 {
 
 	}
 	public static int encontrar_ocurrencia(int num,int []arr) {
-		for(int i=0;i<MAX;i++) {
-			if(num<=arr[i]) {
-				return i;
-			}
+		int i=0;
+		while(num!=arr[i]) {
+			i++;
 		}
-		return -1;
+		return i;
 	}
 	public static void eliminar_ocurrencia(int pos,int [] arr) {
 				corrimiento_izquierda_desde_final(arr,pos);

@@ -32,12 +32,11 @@ public class clase_7_tp_segunda_parte_ejercicio_7 {
 		}
 	}
 	public static int posicion_arreglo(int num, int [] arr) {
-		for(int i=0;i<MAX;i++) {
-			if(num<=arr[i]) {
-				return i;
-			}
+		int pos=0;
+		while ((num>=arr[pos])&&(pos<MAX)) {
+			pos++;
 		}
-		return -1;
+		return pos;
 	}
 	public static void meter_en_arreglo(int num,int pos, int [] arr) {
 				corrimiento_der(arr,pos);
