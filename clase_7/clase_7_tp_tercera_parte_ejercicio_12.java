@@ -15,7 +15,7 @@ public class clase_7_tp_tercera_parte_ejercicio_12 {
 			mostrar_anteultima_secuencia(arreglo);
 		}
 		catch(Exception exc) {
-			
+			System.out.println(exc);
 		}
 
 	}
