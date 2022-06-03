@@ -97,7 +97,7 @@ public class clase_7_tp_tercera_parte_ejercicio_17 {
 	}
 	
 	public static int obtener_fin_secuencia(char [] arr,int pos) {
-		while((pos<MAX)&&(arr[pos]!=0)) {
+		while((pos<MAX)&&(arr[pos]!=' ')) {
 			pos++;
 		}
 		return pos-1;
